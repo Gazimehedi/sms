@@ -1,0 +1,327 @@
+/*==========================================================
+    Abstract:
+          => This Framework has been written
+          => Gazi Mehedi Hasan
+============================================================*/
+
+
+/*Start Framework*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a, a:hover{
+  list-style-type: none;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, a, ul, ol, button, input, p{
+  margin: 0;
+  padding: 0;
+  color:#000;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  color:#fff;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+/*==========================================================
+   background color:-
+============================================================*/
+.bg-orange{
+  background-color: #ffc61a;
+}
+.bg-gray{
+  background:#f5f4f2;
+}
+/*==========================================================
+    Text color:-
+============================================================*/
+.text-orange{
+  color:#ffc61a;
+}
+.text-dark{
+  color:#000 !important;
+}
+/*==========================================================
+    btn:-
+============================================================*/
+.btn{
+  padding:0.375rem 1.4rem;
+  font-size:1.3rem;
+}
+.btn-dark{
+	font-family: 'Bebas Neue', cursive;
+	background-color:#000;
+	border-color:#000;
+  color:#fff;
+  letter-spacing: 1px;
+}
+.btn-dark:hover{
+	color:#ffc61a;
+	background-color:#000;
+}
+.btn-orange{
+  font-family: 'Bebas Neue', cursive;
+	background-color:#ffc61a;
+	border-color:#ffc61a;
+  color:#000;
+  letter-spacing: 1px;
+}
+.btn-orange:hover{
+	color:#fff;
+	background-color:#ffc61a;
+}
+
+/*==========================================================
+    Padding Section:-
+============================================================*/
+
+/*==========================================================
+    Margin:-
+============================================================*/
+
+/*End Framework*/
+
+
+
+
+
+/*==========================================================
+    Header Start
+============================================================*/
+header{
+  background:url(../img/Header/header-bg.jpg)no-repeat;
+  background-size: cover;
+  padding-top:50px;
+  height:739px;
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color: #000;
+  background-color:#ffc61a;
+  padding:4px 15px;
+  font-weight: bold;
+  border-radius:15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  padding:4px 18px;
+  border-radius:15px;
+  text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color:#000;
+  background-color: #ffc61a;
+}
+header .header-info h1{
+  font-size:50px;
+  font-weight: 900;
+  color:#fff;
+}
+header .header-info p{
+  letter-spacing: 6px;
+  color:#fff;
+}
+img.img-fluid {
+  margin-top: 1rem;
+}
+/*END HEADER*/
+/*==========================================================
+    Start CAB
+============================================================*/
+.cab-left{
+  padding:70px;
+}
+.cab .cab-left p{
+	color:#101010;
+}
+.cab .cab-left h1{
+	font-size:45px;
+}
+.cab .cab-left h4{
+  font-size:30px;
+}
+.cab-right{
+  width:380px;
+  background-color:#fff;
+}
+.cab .cab-right h1{
+  background-color:#000;
+  padding:25px;
+}
+.cab .cab-right form input[type="text"]{
+  width:49%;
+  border:none;
+  border-bottom:3px solid #e4e4e4;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  margin-bottom:20px;
+  display:inline-block;
+}
+.cab .cab-right form select{
+  border:none;
+  border-bottom:3px solid #e4e4e4;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.cab .cab-right form input.form-control:focus{
+  box-shadow:none;
+  border-color:#ffc61a;
+}
+.cab .cab-right form select.form-control:focus{
+  box-shadow:none;
+  border-color:#ffc61a;
+}
+
+/*END CAB*/
+/*==========================================================
+    Start Card
+============================================================*/
+.card{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  margin-top:50px;
+  position: relative;
+}
+.card-car img{
+  margin-top:-80px !important;
+}
+.card h2{
+  font-size: 33px;
+}
+.card p{
+  color:#101010;
+}
+.card-star img{
+  position: absolute;
+  bottom:0;
+  right:-1px;
+}
+/*END Card*/
+/*==========================================================
+    Start Content
+============================================================*/
+.content{
+  background:url(../img/Content/content-bg.jpg)no-repeat;
+  background-size: cover;
+  padding:80px 0;
+}
+.content .content-block{
+  margin-top:50px;
+}
+.content-block img{
+  position:absolute;
+}
+.content-block .content-block-text{
+  position: relative;
+  margin-left:125px;
+}
+.content .content-block p{
+  font-size:17px;
+  letter-spacing: 1px;
+}
+/*END Content*/
+/*=========================================================
+  Start Services
+=========================================================*/
+.services{
+  padding-top:80px;
+  min-height: 652px;
+}
+.services-left{
+  padding:55px;
+}
+/*END  Services*/
+/*=========================================================
+  Start Testimonial
+=========================================================*/
+.testimonial{
+  padding:100px 0;
+  background:url(../img/Testim/testim-bg.png)no-repeat;
+  background-size: cover;
+  height:610px;
+}
+.testim-box{
+  background:#040707;
+  padding:40px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.testim-box p{
+  font-size: 17px;
+}
+.testim-box .testim-profile img{
+  position: absolute;
+}
+.testim-box .testim-profile h4,h6{
+  margin-left:100px;
+}
+/*END  Testimonial*/
+/*=========================================================
+  Start Info
+=========================================================*/
+.info{
+  background:#ffc61a;
+  padding:80px 0;
+}
+.main-info h1{
+  font-weight: 900;
+  font-size: 50px;
+}
+/*END  Info*/
+/*=========================================================
+  Start Contact
+=========================================================*/
+.contact{
+  background:url(../img/Contact/contact-bg.jpg)no-repeat;
+  background-size: cover;
+  padding:50px 0;
+}
+.contact p{
+  font-size: 18px;
+}
+.contact h4{
+  border-bottom:7px solid #ffc61a;
+}
+.contact .about-cab-hub, .download, .contact-menu{
+  margin: 0 20px;
+}
+.about-cab-hub ul li a{
+  color:#ffc61a;
+  padding:0 5px;
+  font-size: 20px;
+}
+.contact .download span{
+  font-size: 20px;
+}
+.contact .download i{
+  font-size: 30px;
+  margin-left: 30px;
+}
+.contact .download i.fa-apple{
+  margin-left: 68px;
+}
+.contact .contact-menu i{
+  position: absolute;
+  font-size: 23px;
+}
+.contact .contact-menu p{
+  position: relative;
+  margin-left: 50px;
+}
+/*END  Contact*/

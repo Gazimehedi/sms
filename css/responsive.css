@@ -1,0 +1,481 @@
+/*--------------------------992px---------------------------------------------------*/
+@media(max-width:992px){
+/*=========================================================
+  Start Cab
+=========================================================*/
+.cab .col-lg-5.col-md-12.py-5.mt-5 {
+  margin-top: 0 !important;
+  padding-top:0 !important;
+}
+.cab .col-lg-7.col-md-12.py-5{
+  padding-bottom:0 !important;
+}
+.cab-right{
+  margin:auto;
+  margin-top:0 !important;
+}
+/*End Cab*/
+/*=========================================================
+  Start Card
+=========================================================*/
+.card{
+  margin-top:100px;
+}
+.card h2{
+  font-size:29px;
+}
+/*End Card*/
+/*=========================================================
+  Start Content
+=========================================================*/
+.content .content-block p {
+  font-size: 15px;
+  letter-spacing: 0px;
+}
+/*End Content*/
+}
+/*---------------------------768px----------------------------------------------*/
+@media(max-width:768px){
+/*=========================================================
+  Start Header
+=========================================================*/
+header{
+  padding:50px 0;
+}
+header ul{
+  margin-top:20px;
+}
+header .mt-5, .my-5 {
+  margin-top: 5rem !important;
+}
+/*End Header*/
+/*=========================================================
+  Start CAB
+=========================================================*/
+.cab{
+  height:1130px;
+}
+.cab .col-md-12{
+  margin-top:0 !important;
+}
+.cab-right{
+  margin-top:0 !important;
+  margin:auto;
+}
+.cab .py-5 {
+  padding: 0rem !important;
+}
+
+/*End cab*/
+/*=========================================================
+  Start Card
+=========================================================*/
+.main-card .row.py-5.mt-5{
+  padding-top:0 !important;
+  margin-top: 0 !important;
+}
+.card-info{
+  padding-top:40px;
+}
+.card{
+  margin-top:120px;
+}
+/*End card*/
+/*=========================================================
+  Start Content
+=========================================================*/
+.content .content-block p {
+  font-size: 17px;
+}
+/*End Content*/
+/*=========================================================
+  Start services
+=========================================================*/
+.services-left {
+  padding: 0;
+  text-align:center;
+}
+.services-right{
+  text-align:center;
+}
+.services .row.my-5 {
+    margin-top: 2rem !important;
+}
+.services .col-md-6 img {
+  margin: 1rem 0;
+}
+/*End services*/
+/*=========================================================
+  Start Testimonial
+=========================================================*/
+.testimonial{
+  height:850px;
+}
+.testimonial .row.mt-5.pt-5 {
+  margin-top: 0 !important;
+}
+.testim-box{
+  margin-top:30px;
+}
+/*END  Testimonial*/
+/*=========================================================
+  Start Info
+=========================================================*/
+.main-info h3{
+  font-size: 25px;
+}
+/*END  Info*/
+/*=========================================================
+  Start Contact
+=========================================================*/
+.contact{
+  padding:10px 0;
+}
+.contact h4 {
+  margin-top:40px;
+  padding-bottom:2rem !important;
+}
+.contact p.py-5,
+.contact-menu ul.py-5{
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+/*END  Contact*/
+}
+/*----------------------------556px---------------------------------------------*/
+@media(max-width:556px){
+/*=========================================================
+  Start Header
+=========================================================*/
+header{
+  height:680px;
+}
+header .mt-5, .my-5 {
+  margin-top: 4rem !important;
+}
+/*End Header*/
+/*=========================================================
+  Start CAB
+=========================================================*/
+.cab{
+  height:1060px;
+}
+.cab .cab-left h1 {
+  font-size: 36px;
+}
+img.img-fluid {
+  margin-top: 2rem;
+}
+.cab-left{
+  padding-top: 30px !important;
+}
+.cab-right.mt-5 {
+  margin-top: 0 !important;
+}
+.cab-left {
+  padding: 71px;
+}
+.cab-right {
+  width: 415px;
+}
+/*End Cab*/
+/*=========================================================
+  Start Content
+=========================================================*/
+.content .content-block img.img-fluid {
+  margin-top: 1rem;
+}
+.content .row.text-center.mt-5.pt-5 {
+  margin-top: 0 !important;
+}
+/*End Content*/
+/*=========================================================
+  Start services
+=========================================================*/
+.services .col-md-6 img {
+  margin: 1rem 0;
+}
+/*End services*/
+/*=========================================================
+  Start Testimonial
+=========================================================*/
+.testimonial{
+  height:800px;
+  padding: 70px 0;
+}
+/*END  Testimonial*/
+/*=========================================================
+  Start Info
+=========================================================*/
+.main-info h3 {
+  font-size: 29px;
+}
+/*END  Info*/
+}
+/*----------------------------480px---------------------------------------------*/
+@media(max-width:480px){
+/*=========================================================
+  Start Header
+=========================================================*/
+header .py-5 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+/*End Header*/
+/*=========================================================
+  Start CAB
+=========================================================*/
+.cab {
+  height: 1120px;
+}
+.cab-left {
+  padding: 60px;
+}
+.cab-right {
+    width: 90%;
+}
+/*End Cab*/
+/*=========================================================
+  Start Card
+=========================================================*/
+.main-card .row.py-5.mt-5 {
+  margin-top: 0 !important;
+}
+/*End Card*/
+/*=========================================================
+  Start Testimonial
+=========================================================*/
+.testimonial{
+  height:760px;
+}
+.testimonial .row.mt-5.pt-5 {
+  padding-top: 1rem !important;
+}
+/*END  Testimonial*/
+/*=========================================================
+  Start Contact
+=========================================================*/
+.contact p{
+  text-align:justify;
+}
+/*END  Contact*/
+
+
+}
+/*--------------------------320px-----------------------------------------------*/
+@media(max-width:320px){
+/*=========================================================
+  Start Header
+=========================================================*/
+header {
+  height: 540px;
+}
+header .mt-5, .my-5 {
+  margin-top: 3rem !important;
+}
+header .header-info h3{
+  font-size:26px;
+}
+header .header-info h1{
+  font-size:38px;
+}
+header .header-info p{
+  letter-spacing: 3px;
+}
+/*End Header*/
+/*=========================================================
+  Start CAB
+=========================================================*/
+.cab{
+  height:1090px;
+}
+.cab-left {
+  padding: 20px;
+}
+.cab .cab-left h4 {
+  font-size: 25px;
+}
+.cab .cab-left h1 {
+  font-size: 32px;
+}
+.cab-right{
+  width:280px;
+}
+.cab .cab-right h1 {
+  font-size: 28px;
+}
+/*End Cab*/
+/*=========================================================
+  Start Card
+=========================================================*/
+section.main-card.py-5 {
+  padding: 1rem 0 !important;
+}
+/*End Card*/
+/*=========================================================
+  Start Content
+=========================================================*/
+.content{
+  padding: 50px 0;
+}
+.content h1 {
+  font-size: 30px;
+}
+.content h2 {
+  font-size: 27px;
+}
+.content .content-block {
+  margin-top: 30px;
+}
+.content-block .content-block-text {
+  margin-left: 120px;
+}
+.content-block .content-block-text h4 {
+  font-size:17px;
+}
+.content .content-block p {
+  font-size: 14px;
+}
+/*End Content*/
+/*=========================================================
+  Start services
+=========================================================*/
+.services{
+  padding-top: 50px;
+}
+.services h1 {
+  font-size: 30px;
+}
+.services h2 {
+  font-size: 27px;
+}
+.services h4{
+  font-size:17px;
+}
+.services p{
+  font-size:15px;
+}
+.services .row.my-5 {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+/*End services*/
+/*=========================================================
+  Start Testimonial
+=========================================================*/
+.testimonial{
+  height:680px;
+  padding: 50px 0;
+}
+.testimonial h1{
+  font-size: 30px;
+}
+.testimonial h2{
+  font-size: 27px;
+}
+.testim-box{
+  padding:30px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
+.testim-box h4{
+  font-size: 18px;
+}
+.testim-box h6{
+  font-size: 15px;
+}
+.testim-box p {
+  font-size: 14px;
+}
+.testim-box .testim-profile img{
+  width:65px;
+}
+.testim-profile.py-3{
+  padding-bottom:1.5rem !important;
+}
+/*END  Testimonial*/
+/*=========================================================
+  Start Info
+=========================================================*/
+.info{
+  padding: 50px 0;
+}
+.main-info h3 {
+  font-size: 20px;
+}
+.main-info h1{
+  font-size: 35px;
+}
+/*END  Info*/
+/*=========================================================
+  Start Contact
+=========================================================*/
+.contact p{
+  font-size: 16px;
+}
+/*END  Contact*/
+/*=========================================================
+  Start |Footer
+=========================================================*/
+footer p{
+  font-size: 12px;
+}
+/*END  |Footer*/
+
+
+}
+/*-----------------------------290px--------------------------------------------*/
+@media(max-width:290px){
+/*=========================================================
+  Start Header
+=========================================================*/
+header {
+  height: 520px;
+}
+header .py-5 {
+  padding-top: 1rem !important;
+}
+header .mt-5{
+  margin-top:10px !important;
+}
+
+header .header-info h3{
+  font-size:20px;
+}
+header .header-info h1{
+  font-size:34px;
+}
+header .header-info p{
+  letter-spacing: 2px;
+}
+/*End Header*/
+/*=========================================================
+  Start services
+=========================================================*/
+.services h1 {
+  font-size: 29px;
+}
+/*End services*/
+/*=========================================================
+  Start Testimonial
+=========================================================*/
+.testimonial{
+  height:720px;
+}
+.testim-box h6{
+  font-size: 12px;
+}
+/*END  Testimonial*/
+/*=========================================================
+  Start Info
+=========================================================*/
+.main-info h3 {
+  font-size: 17px;
+}
+/*END  Info*/
+
+
+}
